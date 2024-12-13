@@ -1,0 +1,7 @@
+SELECT TOP (1000) [EnrollmentNumber]
+      ,[Subject]
+      ,[Grade]
+      ,[MidTermMarks]
+      ,[EndTermMarks]
+      ,[CourseName]
+  FROM [temp].[dbo].[AcademicDetails]
